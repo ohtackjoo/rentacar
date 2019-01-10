@@ -1,3 +1,4 @@
+
 #mainServiceWrapper{
 	display:block;
 	margin:0 auto;
@@ -60,3 +61,28 @@ margin-left: -45px;
 margin-top: -32px;
 opacity: 0.7;
 }
+=======
+@charset "UTF-8";
+.all{
+	background: 50% 50% no-repeat;
+	background-size: full;
+	height: 100%;
+	width: 0;
+}
+.all img{
+	
+}
+.long{
+	float: left;
+}
+.long a{
+ opacity:0.7 ;
+}
+
+.short{
+	float: right;
+}
+.short a{
+ opacity:0.7 ;
+}
+a{}
