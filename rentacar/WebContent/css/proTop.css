@@ -1,0 +1,249 @@
+@charset "UTF-8";
+/* reset css */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,table,tr,th,td,fieldset,div,dl,dt,dd,form,legend,input,label,select,textarea,button{margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6 {font-size:12px; font-family:"hcR","돋움",dotum,sans-serif; color:#333;}
+a {text-decoration:none; color:#333;}
+ul,ol,li{list-style:none; color:none;}
+img,fieldset{border:none; vertical-align:middle;}
+strong,em,address{font-weight:normal; font-style:normal;}
+table {border-collapse:collapse;}
+
+/*  font  
+@font-face{
+    font-family:"hc";
+    font-weight:normal;
+    src:url(../font/regular.woff)
+}
+@font-face{
+    font-family:"hc";
+    font-weight:bold;
+    src:url(../font/bold.woff)
+}*/
+
+/*  font  */
+/* @font-face{
+    font-family:"hcR";
+    src:url(../font/regular.woff)
+}
+@font-face{
+    font-family:"hcB";
+    src:url(../font/bold.woff)
+} */
+
+/* common */
+.clearfix:after {
+    content:"";
+    clear:both;
+    display:block;
+
+}
+
+/* layout */
+#wrap{
+    min-width:1080px;
+}
+#headerWrap {
+    background-color:#161616;
+    min-width:1920px;
+    margin-left:-410px; 
+}
+#header {
+    width:1000px;
+    height:95px;
+    margin:0 auto;
+    
+}
+
+#visual {
+    
+}
+#mainContents{
+    width:1000px;
+    margin:0 auto;
+    padding:120px 0;
+}
+
+#footerWrap {
+    background-color:#fafafa;
+    margin-top:-10px;
+
+}
+#footer {
+        text-align:center;
+    	width: 1920px;
+}
+
+
+/* header */
+.logo {
+    float:left;
+    margin-top:49px;
+    
+}
+#navWrap {
+    float:right;
+}
+.t_menu {
+    float:right;
+    margin-top:13px;
+    margin-bottom:26px;
+}
+.t_menu li {
+    float:left;
+    margin-left:7px;
+    position:relative;
+}
+/* .t_menu li:first-child:after {
+    content:"";
+    width:1px;
+    height:11px;
+    background-color:#515151;
+    display:block;
+    position:absolute;
+    right:-15px;
+    top:0px;
+} */
+/*.t_menu li:before{
+    content:"";
+    width:1px;
+    height:11px;
+    background-color:#515151;
+    display:block;
+    position:absolute;
+    left:-15px;
+    top:1px;    
+}*/
+.t_menu li a{
+    color:#777;
+}
+.t_menu li a:hover{
+    color:#fff;
+}
+.t_menu .on a{
+    color:#fff;
+}
+.gnb{
+    float:right;
+    clear:both;
+}
+.gnb > li {
+    float:left;
+    margin-left:98px;
+    position:relative;
+}
+.gnb > li > a{
+    font-size:20px;
+    color:#959595;
+}
+.gnb > li > a:hover{
+    color:#fff;
+}
+.gnb .sub {
+    width:140px;
+    position:absolute;
+    left:0;
+    top:80px;
+    z-index:110;
+}
+.gnb .sub li {
+    line-height:16px;
+    margin-bottom:12px;
+}
+.gnb .sub li a{
+    color:#666;
+    font-size:13px;
+    
+}
+.sub_bg{
+    width:100%;
+    height:250px;
+    position:absolute;
+    background-color:#fff;
+    left:0;
+    top:95px;
+    z-index:100;
+    display:none;
+}
+.gnb .sub li a:hover{
+    color:#1f75d6;
+}
+
+.footer_link {
+    display:inline-block;
+}
+/* .footer_link .sns {
+    float:left;
+    margin-top:5px;
+    margin-right:5px;
+}
+.footer_link .sns li {
+    float:left;
+    margin-right:15px;
+}
+.footer_link .sns li a {
+    display:block;
+    width:24px;
+    height:19px;
+    text-indent:-9999px;
+    overflow:hidden;
+} */
+
+/* .footer_link .sns .facebook a {background-position:5px 0;}
+.footer_link .sns .twitter a {background-position:-35px 0;}
+.footer_link .sns .youtube a {background-position:-75px 0;}
+.footer_link .sns .facebook a:hover {background-position:5px -25px;}
+.footer_link .sns .twitter a:hover {background-position:-35px -25px;}
+.footer_link .sns .youtube a:hover {background-position:-75px -25px;} */
+.footer_link .family_site {
+    float:left;
+}    
+.footer_link .family_site button{
+    width:120px;
+    height:32px;
+    border:1px solid #ccc;
+    background-color:#fafafa;
+    font-family:"hcR","돋움",dotum,sans-serif;
+    font-weight:bold;
+    text-align:left;
+    font-size:11px;
+    color:#666;
+    padding-left:15px;
+    float:left;
+    cursor:pointer;
+    margin-left:-10px;
+}
+.footer_link .family_site button:hover {
+    background-color:#fff;
+}
+.addr {
+    margin-top:20px;
+    margin-bottom:10px;
+}
+.addr p {
+    color:#666;
+    
+}
+.addr p .f_line {
+    margin-left:18px;
+    margin-right: 10px;
+    position:relative;
+    
+    
+}
+.addr p .f_line:before {
+    content:"";
+    width:1px;
+    height:10px;
+    background-color: #e4e4e4;
+    position:absolute;
+    left:-10px;
+    top:1px;
+}
+
+.copy {
+    margin-bottom:30px;
+    color:#666;
+}
+.f_logo {
+    
+}

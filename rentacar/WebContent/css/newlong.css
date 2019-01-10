@@ -1,0 +1,167 @@
+@CHARSET "EUC-KR";
+
+
+/* 메인이미지 */
+.spot.long:after{opacity:0.05;}
+
+.padding0{padding:0}
+
+.notice .notice-wrapper{border:0}
+.advice .wrap{height: 90px;line-height: 90px;padding:10px 0;}
+.spot.long{height:590px;background-size:cover;}
+.spot .car-search{margin: 90px auto 0;}
+.spot .car-search .option-radio{width:100%;top:-40px;}
+.spot .car-search .option-radio .item{width:50%;height:40px;}
+.spot .car-search .option-radio .item .title{line-height:40px;}
+.car-search .option-input{width: 82%;
+    top: 30px;
+    position: absolute;
+    border-bottom: 1px solid #ddd;
+    left: 25px;
+}
+
+.spot .car-search .option-input input{color:#333;height: 42px;font-size:17px;}
+
+.spot .car-search .car-search__wrapper{height:100px;background: #fff;}
+.spot .car-search .btn-wrap .btn{height: 42px;
+    font-size: 15px;
+    line-height: 42px;
+    right: 25px;
+    position: absolute;
+    width: 120px;
+    top: 30px;}
+.spot .car-search .keyword{
+	top:125px;
+	margin:0;
+    position: relative;}
+    
+.shortcut.long .list .item{width:25%;} 
+.search_input{height: 100px;background: #fff;}  
+
+
+/* 차량직접선택 */
+.spot .car-search .select-col .select2-selection--single{height: 48px;}
+.spot .car-search .select-area{width: 825px;height:50px;margin:22px}
+
+.spot .car-search .select-col .select2-selection__rendered{line-height:45px;border-bottom: 1px solid #ddd;padding: 0px 20px;margin-right: 10px;}
+.spot .car-search .select-col .select2-selection__arrow{top:26px}
+.select2-container--default.select2-container--disabled .select2-selection--single{background-color: #fff;}
+
+
+/* 아이콘 */
+
+.fontbox {
+    display: block;
+    font-size: 26px;
+    color: #333;
+    text-align: center;
+    line-height: 1.2;
+}
+.little_font {
+    display: block;
+    margin-bottom: 11px;
+    font-size: 14px;
+    color: #999;
+}
+
+
+.shortcut{background-color: #fff;}
+.shortcut .shortcut-wrapper .list .item .ico{
+    display: block;
+    position: relative;
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    margin: 0 auto 20px;
+    background-color: #f5f5f5;
+}
+
+.shortcut .shortcut-wrapper .list .item .ico.ico-long-shortcut1:before{
+	width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position: -8px -8px;
+    -webkit-background-size: 350px 150px;
+    background-size: 350px 150px;
+    text-indent: 1000%;
+    white-space: nowrap;
+    overflow: hidden;
+ }
+ .shortcut .shortcut-wrapper .list .item .ico.ico-long-shortcut2:before {
+	width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position: -98px -8px;
+    -webkit-background-size: 350px 150px;
+    background-size: 350px 150px;
+    text-indent: 1000%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.shortcut .shortcut-wrapper .list .item .ico.ico-long-shortcut3:before {
+	width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position: -273px -8px;
+    -webkit-background-size: 350px 150px;
+    background-size: 350px 150px;
+    text-indent: 1000%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.shortcut .shortcut-wrapper .list .item .ico.ico-long-shortcut4:before {
+	width: 66px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-position: -195px -8px;
+    -webkit-background-size: 350px 150px;
+    background-size: 350px 150px;
+    text-indent: 1000%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+
+/* 오버  */
+.shortcut .shortcut-wrapper .list .item .change:hover .ico{
+    background-color: #eb444b;
+ }
+ 
+ .shortcut .shortcut-wrapper .list .item .change:hover .ico.ico-long-shortcut1:before{
+    background-position: -8px -85px;
+ }
+ .shortcut .shortcut-wrapper .list .item .change:hover .ico.ico-long-shortcut2:before{
+    background-position: -98px -85px;
+ }
+
+ .shortcut .shortcut-wrapper .list .item .change:hover .ico.ico-long-shortcut3:before{
+    background-position: -273px -85px;
+ }
+
+ .shortcut .shortcut-wrapper .list .item .change:hover .ico.ico-long-shortcut4:before{
+    background-position: -195px -85px;
+ }
+/* 채팅상담  */
+.advice{background-size: cover;}
+.advice:after{background:none}
+
+
+/* 이런차는 어떠세요? */
+.car-list .car-list__item{    
+	position: relative;
+    box-sizing: border-box;
+    border: 0;
+    background: #fff;
+    height: 350px;
+}
+.car-list{width: 1000px;margin: 25px auto;}
+.howcar{background: #f5f5f5;text-align: center;padding-bottom: 50px;}
+.header-group{border:0;padding:50px 0 20px 0;margin-bottom:0;}
+
+.textleft{text-align:left}
+.car-list-onefont{font-size: 14px;height:40px;color:#444;}
+.car-list-twofont{font-size: 20px;line-height:25px;color:#444;}
+.car-list-threefont{font-size: 14px;border-bottom: 1px solid #666;}
+
+.car-list--recommend .car-list__action{margin: 0;position: absolute;bottom: 35px;}
