@@ -86,3 +86,9 @@ opacity: 0.7;
  opacity:0.7 ;
 }
 a{}
+.long a img{
+margin-bottom: 6px;
+}
+.short a img{
+margin-bottom: 6px;
+}
